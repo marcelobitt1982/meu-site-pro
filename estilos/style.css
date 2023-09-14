@@ -1,0 +1,114 @@
+@charset "UTF";
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    margin: 0px;
+    padding: 0px;
+    
+}
+body {
+    
+    background-color: #5D7AF0;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    min-width: 150px;
+    text-align: center;
+    padding-top: 40px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.568);
+}
+
+header > img {
+    background-image: linear-gradient(to bottom, #2D4FD6, #122057);
+    min-width: 100px;
+    max-width: 450px;
+    box-shadow: 2px 7px 7px rgba(0, 0, 0, 0.623);
+    border-radius: 20px;
+    
+    
+}
+
+header > h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 40px;
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.582);
+
+}
+
+nav {
+    background-image: linear-gradient(to bottom, #2D4FD6, #122057);
+    padding: 100px;
+    text-align: center;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.623);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+nav > a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #193296;
+    color: yellow;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 2px 7px 7px rgba(0, 0, 0, 0.726);
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    background-color: #223CA3;
+    color: rgb(255, 255, 255);
+}
+
+main {
+    color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+main h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 2em;
+}
+
+main p {
+    color: white;
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+footer {
+    background-color: #122057;
+    color: yellow;
+    text-align: center;
+    font-size: 1em;
+    margin: 8px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+
